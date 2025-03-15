@@ -1,0 +1,61 @@
+
+> Configure project :
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/prota/.gradle/caches/jars-9/d86aa76a86bac1d400824d37772f584e/gradle-sdk-1.1.2.jar!/browserstack/shaded/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/prota/.gradle/caches/jars-9/14a187d9334e7c0c76a9543e3b05377f/browserstack-java-sdk-1.27.1.jar!/browserstack/shaded/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+12:57:39,222 |-INFO in browserstack.shaded.ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [browserstack-logback-test.xml]
+12:57:39,222 |-INFO in browserstack.shaded.ch.qos.logback.classic.LoggerContext[default] - Found resource [browserstack-logback.xml] at [jar:file:/C:/Users/prota/.gradle/caches/jars-9/d86aa76a86bac1d400824d37772f584e/gradle-sdk-1.1.2.jar!/browserstack-logback.xml]
+12:57:39,228 |-WARN in browserstack.shaded.ch.qos.logback.classic.LoggerContext[default] - Resource [browserstack-logback.xml] occurs multiple times on the classpath.
+12:57:39,228 |-WARN in browserstack.shaded.ch.qos.logback.classic.LoggerContext[default] - Resource [browserstack-logback.xml] occurs at [jar:file:/C:/Users/prota/.gradle/caches/jars-9/14a187d9334e7c0c76a9543e3b05377f/browserstack-java-sdk-1.27.1.jar!/browserstack-logback.xml]
+12:57:39,228 |-WARN in browserstack.shaded.ch.qos.logback.classic.LoggerContext[default] - Resource [browserstack-logback.xml] occurs at [jar:file:/C:/Users/prota/.gradle/caches/jars-9/d86aa76a86bac1d400824d37772f584e/gradle-sdk-1.1.2.jar!/browserstack-logback.xml]
+12:57:39,228 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.spi.ConfigurationWatchList@3384615c - URL [jar:file:/C:/Users/prota/.gradle/caches/jars-9/d86aa76a86bac1d400824d37772f584e/gradle-sdk-1.1.2.jar!/browserstack-logback.xml] is not of type file
+12:57:39,232 |-INFO in browserstack.shaded.ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+12:57:39,232 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word customHighlight with class [com.browserstack.CustomHighlightingCompositeConverter]
+12:57:39,232 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [browserstack.shaded.ch.qos.logback.core.FileAppender]
+12:57:39,232 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILEAPPENDER]
+12:57:39,233 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [browserstack.shaded.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+12:57:39,233 |-INFO in browserstack.shaded.ch.qos.logback.core.FileAppender[FILEAPPENDER] - File property is set to [logs/browserstack-javaagent.log]
+12:57:39,234 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [browserstack.shaded.ch.qos.logback.core.FileAppender]
+12:57:39,234 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILEAPPENDERDEBUG]
+12:57:39,234 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [browserstack.shaded.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+12:57:39,235 |-INFO in browserstack.shaded.ch.qos.logback.core.FileAppender[FILEAPPENDERDEBUG] - File property is set to [logs/browserstack-javaagent.debug.log]
+12:57:39,235 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [browserstack.shaded.ch.qos.logback.core.ConsoleAppender]
+12:57:39,235 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+12:57:39,235 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [browserstack.shaded.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+12:57:39,236 |-INFO in browserstack.shaded.ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+12:57:39,236 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+12:57:39,236 |-INFO in browserstack.shaded.ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.browserstack] to TRACE
+12:57:39,236 |-INFO in browserstack.shaded.ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.browserstack] to false
+12:57:39,236 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILEAPPENDER] to Logger[com.browserstack]
+12:57:39,236 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILEAPPENDERDEBUG] to Logger[com.browserstack]
+12:57:39,236 |-INFO in browserstack.shaded.ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [stdoutPrinter] to false
+12:57:39,236 |-INFO in browserstack.shaded.ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[stdoutPrinter]
+12:57:39,236 |-INFO in browserstack.shaded.ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+12:57:39,236 |-INFO in browserstack.shaded.ch.qos.logback.classic.joran.JoranConfigurator@4f87dd28 - Registering current configuration as safe fallback point
+
+SLF4J: Actual binding is of type [browserstack.shaded.ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> No tests found for given includes: [tests.BStackLocalTest.localTest](--tests filter)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 27s
+2 actionable tasks: 2 executed
